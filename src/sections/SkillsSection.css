@@ -1,0 +1,31 @@
+.skills-container {
+  margin: 0 auto;
+}
+
+
+.all-skills {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.skill {
+  border-color: white;
+  padding: 15px 5px;
+  border-radius: 10px;
+  height: 100px;
+  width: 115px;
+  color: white;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 30px;
+  transition: transform .5s;
+
+}
+
+.skill:hover {
+  transform: scale(1.2);
+}

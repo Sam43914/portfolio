@@ -1,0 +1,41 @@
+.headers {
+  font-size: 40px;
+  text-align: center;
+}
+
+.buttons {
+  background-color: rgba(0, 0, 0, 0.516);
+  height: 50px;
+  width: 150px;
+  align-self: center;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Doto", sans-serif;
+  padding: 10px 20px;
+  text-align: center;
+  transition: 0.2s;
+  margin-top: 2.5%;
+  cursor: pointer;
+}
+
+
+.buttons:hover {
+  box-shadow: 0 0 15px #360033;
+  transform: scale(1.1);
+  color: #1cb8c6;
+  text-shadow: 0 0 15px #1cb8c6;
+  transition: 0.2s;
+}
+
+.section-divider {
+  /* Remove width: 55% from here */
+  background-color: rgba(192, 192, 192, 0.4);
+  /* Made it slightly transparent for Apple look */
+  height: 2px;
+  /* Thinner lines look more premium */
+  margin: 80px auto;
+  /* Centered with more breathing room */
+  border-radius: 10px;
+}

@@ -1,0 +1,41 @@
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+  background-color: rgba(0, 0, 0, 0.571);
+  border-width: 10px;
+  height: 450px;
+  width: 350px;
+  border-radius: 20px;
+  margin-top: 20px;
+  color: #1cb8c6;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px black;
+  color: rgb(198, 183, 183);
+}
+
+.project-card .image {
+  height: 50%;
+  width: 100%;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.project-card .description {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
